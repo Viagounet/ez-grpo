@@ -1,0 +1,20 @@
+[project]
+name = "ez-grpo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Viagounet", email = "ismael.rousseau@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.0.0",
+    "transformers>=4.54.0",
+]
+
+[project.scripts]
+ez-grpo = "ez_grpo:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

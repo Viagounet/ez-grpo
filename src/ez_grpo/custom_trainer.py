@@ -1,0 +1,2 @@
+class CustomGRPOTrainer(GRPOTrainer):
+    pass
